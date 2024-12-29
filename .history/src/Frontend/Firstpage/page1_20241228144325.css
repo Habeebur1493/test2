@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+  font-family: "Kanit", serif;
+  background-image: linear-gradient(to right, #2980b9,#2c3e50);
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    width: 100%;
+    font-family: "Kanit", serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.page1{
+    height: 100%;
+    width: 100%;
+   
+}
+nav h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    font-family: Berkshire Swash;
+    text-align: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+  
+  .slider-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background: rgba(238, 236, 236, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 50%;
+}
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background: black;
+  }
+  
+
+  .container{
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    padding-top: 90px;
+    padding-left: 50px;
+
+  }
+
+  .container .box1{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .container .box2{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .container .box3{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+ .container .box4{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .container .box5{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .container .box6{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+  .container .box1:hover{
+    transform: scale(1.1); 
+  }
+  .container .box2:hover{
+    transform: scale(1.1);
+  }
+  .container .box3:hover{
+    transform: scale(1.1);
+  }
+  .container .box4:hover{
+    transform: scale(1.1);
+  }
+  .container .box5:hover{
+    transform: scale(1.1);
+  }
+  .container .box6:hover{
+    transform: scale(1.1);
+  }
+
+
+  .container h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+  }
+
+
+  .ClothingDetails{
+    height: 100vh;
+    width: 100%;
+    background-color: #eb8282;
+  }
+
+
+  .container1{
+    display: flex;
+    
+  }
+
+  .column1{
+    height: 80%;
+    width: 30%;
+    background-color: #2980b9;
+  }
+
+  .column2{
+    height: 80%;
+    width: 70%;
+    background-color: #2c3e50;
+  }

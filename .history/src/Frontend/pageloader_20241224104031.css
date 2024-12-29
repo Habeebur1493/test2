@@ -1,0 +1,38 @@
+
+
+.screen {
+    padding-top: 300px;
+    text-align: center;
+    height: 100vh;
+    gap: 20px;
+    background: #b9abf7;
+    overflow: hidden;
+    color: white;
+    animation: hide 1s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.screen h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+@keyframes hide {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+}
+.letter {
+    display: inline-block;
+}

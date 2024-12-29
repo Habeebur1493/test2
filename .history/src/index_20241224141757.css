@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: Tusker;
+    src: url("./assets/fonts/TuskerGrotesk-Regular.ttf");
+}
+
+@font-face {
+    font family:Berkshire Swash;
+    src:url()
+}

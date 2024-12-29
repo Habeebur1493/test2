@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #b9abf7;
+    color: white;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    padding: 20px;
+}
+nav ul li{
+    cursor: pointer;
+}
+
+.svg1{
+    padding: 20px;
+
+}
+
+.page1{
+    background: url();
+}
+

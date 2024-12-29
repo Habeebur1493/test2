@@ -1,0 +1,26 @@
+
+
+.screen {
+    padding-top: 300px;
+    text-align: center;
+    height: 100vh;
+    gap: 20px;
+    background: #b9abf7;
+    overflow: hidden;
+    color: white;
+    animation: hide 1s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+
+
+@keyframes hide {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  
